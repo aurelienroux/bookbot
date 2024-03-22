@@ -42,7 +42,7 @@ def get_text_chars_count(text):
 
 def print_report(book_path, text_num_words, text_chars_count):
   print(f"--- Start report of {book_path} ---")
-  print(f"total of words: {text_num_words}")
+  print(f"Total of words: {text_num_words}")
   print("")
   for letter in text_chars_count:
     if letter["key"].isalpha():
